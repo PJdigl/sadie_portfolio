@@ -3,9 +3,17 @@ body {
     color: aliceblue
 }
 
-@media (max-width: 978px) {
+@media screen and (min-width: 600px) {
     body {
-        margin: 50%;
+        margin: auto;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        margin: auto;
+        width: 100%;
     }
 }
 
@@ -19,4 +27,25 @@ a:link {
 
 .class1 {
     text-align: center;
+}
+
+.class2 {
+    list-style-type: none;
+}
+
+/*Paragraph*/
+.class3 {
+    text-align: left;
+    font-size: 1.5vmax;
+    background-color: black;
+    color: white;
+}
+
+.class4 {
+    font-size: 1.5vmax;
+    display: inline;
+}
+
+.class5 {
+    font-size: 1vmax;
 }
