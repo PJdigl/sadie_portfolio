@@ -1,12 +1,22 @@
 body {
     background-color: rgb(104, 62, 128);
-    color:aliceblue
+    color: aliceblue
+}
+
+@media (max-width: 978px) {
+    body {
+        margin: 50%;
+    }
 }
 
 a:visited {
-    color:darkseagreen;
+    color: darkseagreen;
 }
 
-a:link{
-    color:cadetblue;
+a:link {
+    color: cadetblue;
+}
+
+.class1 {
+    text-align: center;
 }
