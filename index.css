@@ -1,4 +1,12 @@
-#main {
+body {
     background-color: rgb(104, 62, 128);
     color:aliceblue
+}
+
+a:visited {
+    color:darkseagreen;
+}
+
+a:link{
+    color:cadetblue;
 }
