@@ -1,6 +1,7 @@
 body {
     background-color: rgb(104, 62, 128);
-    color: aliceblue
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 @media screen and (min-width: 900px) {
@@ -54,6 +55,7 @@ a:link {
     @media screen and (max-width: 900px) {
         font-size: 8vmax;
     }
+
     @media screen and (min-width: 900px) {
         font-size: 8rem;
     }
