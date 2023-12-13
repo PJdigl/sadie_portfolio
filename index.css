@@ -76,8 +76,9 @@ a:link {
 }
 
 .class8 {
-    width: 1000px;
+    width: 1qcmax;
     height: 300px;
     background-position: center;
+    position: center;
     background-clip:content-box;
 }
