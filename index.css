@@ -61,7 +61,7 @@ a:link {
     }
 
     position: absolute;
-    top: 50%;
+    top: 0%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
@@ -79,6 +79,10 @@ a:link {
     width: 1qcmax;
     height: 300px;
     background-position: center;
-    position: center;
-    background-clip:content-box;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    po
 }
