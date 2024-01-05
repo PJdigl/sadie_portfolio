@@ -1,3 +1,4 @@
+
 body {
     background-color: rgb(104, 62, 128);
     color: aliceblue;
@@ -7,7 +8,7 @@ body {
 @media screen and (min-width: 900px) {
     body {
         margin: auto;
-        width: 50%;
+        /* width: 50%; */
     }
 }
 
@@ -51,38 +52,16 @@ a:link {
     font-size: 1vmax;
 }
 
-.class6 {
-    @media screen and (max-width: 900px) {
+@media only screen and (max-width: 900px){
+    .class6 {
         font-size: 8vmax;
     }
+}
 
-    @media screen and (min-width: 900px) {
-        font-size: 8rem;
-    }
-
-    position: absolute;
-    top: 0%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.class6 {
     width: 100%;
     text-align: center;
     mix-blend-mode: difference;
     color:orange;
     margin: 0;
-}
-
-.class7 {
-    position: relative;
-}
-
-.class8 {
-    width: 1qcmax;
-    height: 300px;
-    background-position: center;
-    position: absolute;
-    top: 0%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    po
 }

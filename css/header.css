@@ -1,0 +1,16 @@
+.header-text {
+  font-size: 4rem;
+  width: 100%;
+  text-align: center;
+  mix-blend-mode: difference;
+  color:orange;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  background-image: url('../images/evilcoperationcropped.png');
+}
