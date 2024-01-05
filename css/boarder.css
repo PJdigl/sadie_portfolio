@@ -1,0 +1,38 @@
+@media only screen and (max-width: 900px) {
+  #portfolio-bottom-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #portfolio-left,
+  #portfolio-right {
+    display: none;
+  }
+}
+
+#boarder-left,
+#boarder-right {
+  width: 25vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#boarder-left {
+  background-image: url("../images/evilcoperationcropped.png");
+}
+
+#boarder-right {
+  background-image: url("../images/evilcoperationcropped.png");
+}
+
+body {
+  display: flex;
+}
+
+@media only screen and (min-width: 900px) {
+  #boarder-container {
+    width: 50vw;
+  }
+}
+ 
