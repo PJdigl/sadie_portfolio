@@ -10,6 +10,11 @@
   gap: 1rem;
 }
 
+#portfolio-bottom-container-left {
+  flex-direction: row;
+  display: flex;
+  gap: 1rem;
+}
 
 #portfolio-image {
   max-width: 300px;
