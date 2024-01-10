@@ -1,8 +1,16 @@
 @media only screen and (max-width: 900px) {
-  #portfolio-bottom-container {
+  #flex-container-right {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  @media only screen and (max-width: 900px) {
+    #flex-container-left {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
   }
 
   #portfolio-left,
@@ -35,4 +43,3 @@ body {
     width: 50vw;
   }
 }
- 

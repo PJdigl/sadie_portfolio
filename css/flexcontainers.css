@@ -1,21 +1,23 @@
-#portfolio-main {
+#flex-main {
   display: flex;
   flex-direction: column;
   padding: 1rem;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
-#portfolio-bottom-container {
+#flex-container-right {
   flex-direction: row-reverse;
   display: flex;
   gap: 1rem;
 }
 
-#portfolio-bottom-container-left {
+#flex-container-left {
   flex-direction: row;
   display: flex;
   gap: 1rem;
 }
 
-#portfolio-image {
+#flex-image {
   max-width: 300px;
 }

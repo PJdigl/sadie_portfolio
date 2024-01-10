@@ -1,63 +1,62 @@
-
 body {
-    background-color: rgb(104, 62, 128);
-    color: aliceblue;
-    font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(104, 62, 128);
+  color: aliceblue;
+  font-family: "Times New Roman", Times, serif;
 }
 
 @media screen and (min-width: 900px) {
-    body {
-        margin: auto;
-        /* width: 50%; */
-    }
+  body {
+    margin: auto;
+    /* width: 50%; */
+  }
 }
 
 @media screen and (max-width: 900px) {
-    body {
-        margin: auto;
-        width: 100%;
-    }
+  body {
+    margin: auto;
+    width: 100%;
+  }
 }
 
 a:visited {
-    color: darkseagreen;
+  color: darkseagreen;
 }
 
 a:link {
-    color: cadetblue;
+  color: cadetblue;
 }
 
 .center-text {
-    text-align: center;
+  text-align: center;
 }
 
 /*Paragraph*/
 .class3 {
-    text-align: left;
-    font-size: 1.5vmax;
-    background-color: black;
-    color: white;
+  text-align: left;
+  font-size: 1.5vmax;
+  background-color: black;
+  color: white;
 }
 
 .class4 {
-    font-size: 1.5vmax;
-    display: inline;
+  font-size: 1.5vmax;
+  display: inline;
 }
 
 .class5 {
-    font-size: 1vmax;
+  font-size: 1vmax;
 }
 
-@media only screen and (max-width: 900px){
-    .class6 {
-        font-size: 8vmax;
-    }
+@media only screen and (max-width: 900px) {
+  .class6 {
+    font-size: 8vmax;
+  }
 }
 
 .class6 {
-    width: 100%;
-    text-align: center;
-    mix-blend-mode: difference;
-    color:orange;
-    margin: 0;
+  width: 100%;
+  text-align: center;
+  mix-blend-mode: difference;
+  color: orange;
+  margin: 0;
 }
