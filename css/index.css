@@ -43,10 +43,6 @@ a:link {
   display: inline;
 }
 
-.class5 {
-  font-size: 1vmax;
-}
-
 @media only screen and (max-width: 900px) {
   .class6 {
     font-size: 8vmax;
