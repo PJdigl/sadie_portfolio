@@ -43,3 +43,9 @@ body {
     width: 50vw;
   }
 }
+
+@media only screen and (max-width: 900px) {
+  .flextextcenter {
+    text-align: center;
+  }
+}

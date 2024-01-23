@@ -25,5 +25,10 @@
 #flex-mobile {
   padding: 1rem;
   flex-wrap: wrap;
-  gap: 20px;
+}
+
+#flex-select {
+  padding: 0.1rem;
+  flex-wrap: wrap;
+  background-color: rgb(29, 0, 34);
 }
