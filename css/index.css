@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(104, 62, 128);
+  background-color: rgb(60, 46, 68);
   color: aliceblue;
   font-family: "Times New Roman", Times, serif;
 }
@@ -28,31 +28,4 @@ a:link {
 
 .center-text {
   text-align: center;
-}
-
-/*Paragraph*/
-.class3 {
-  text-align: left;
-  font-size: 1.5vmax;
-  background-color: black;
-  color: white;
-}
-
-.class4 {
-  font-size: 1.5vmax;
-  display: inline;
-}
-
-@media only screen and (max-width: 900px) {
-  .class6 {
-    font-size: 8vmax;
-  }
-}
-
-.class6 {
-  width: 100%;
-  text-align: center;
-  mix-blend-mode: difference;
-  color: orange;
-  margin: 0;
 }

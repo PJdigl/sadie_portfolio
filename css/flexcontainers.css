@@ -21,3 +21,9 @@
 #flex-image {
   max-width: 300px;
 }
+
+#flex-mobile {
+  padding: 1rem;
+  flex-wrap: wrap;
+  gap: 20px;
+}
