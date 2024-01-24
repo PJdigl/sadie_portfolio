@@ -21,6 +21,7 @@
 
 #flex-image {
   max-width: 300px;
+  align-self: center
 }
 
 #flex-mobile {
