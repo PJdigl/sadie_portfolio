@@ -4,6 +4,7 @@
   padding: 1rem;
   flex-wrap: wrap;
   gap: 20px;
+  font-size: 1.5em;
 }
 
 #flex-container-right {
@@ -28,6 +29,7 @@
 }
 
 #flex-select {
+  white-space: nowrap;
   padding: 0.1rem;
   background-color: rgb(29, 0, 34);
 }
