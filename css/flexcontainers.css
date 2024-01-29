@@ -19,11 +19,6 @@
   gap: 1rem;
 }
 
-#flex-image {
-  max-width: 300px;
-  align-self: center;
-}
-
 #flex-mobile {
   padding: 1rem;
   flex-wrap: wrap;
@@ -33,4 +28,8 @@
   white-space: nowrap;
   padding: 0.1rem;
   background-color: rgb(29, 0, 34);
+}
+
+#flex-image {
+  align-self: center;
 }
