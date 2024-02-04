@@ -4,13 +4,13 @@ body {
   font-family: "Times New Roman", Times, serif;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1025px) {
   body {
     margin: auto;
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1025px) {
   body {
     margin: auto;
     width: 100%;

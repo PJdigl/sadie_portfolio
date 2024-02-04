@@ -1,12 +1,12 @@
-@media only screen and (max-width: 900px) {
-  #flex-container-right {
+@media only screen and (max-width: 1025px) {
+  .flex-container-right {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  @media only screen and (max-width: 900px) {
-    #flex-container-left {
+  @media only screen and (max-width: 1025px) {
+    .flex-container-left {
       flex-direction: column;
       justify-content: center;
       align-items: center;
@@ -38,14 +38,14 @@ body {
   display: flex;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1025px) {
   #boarder-container {
     width: 50vw;
   }
 }
 
-@media only screen and (max-width: 900px) {
-  .flextextcenter {
+@media only screen and (max-width: 1025px) {
+  .flex-text-center {
     text-align: center;
   }
 }

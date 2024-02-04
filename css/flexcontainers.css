@@ -7,13 +7,13 @@
   font-size: 1.5em;
 }
 
-#flex-container-right {
+.flex-container-right {
   flex-direction: row-reverse;
   display: flex;
   gap: 1rem;
 }
 
-#flex-container-left {
+.flex-container-left {
   flex-direction: row;
   display: flex;
   gap: 1rem;
