@@ -1,11 +1,13 @@
 @media only screen and (max-width: 1025px) {
   .flex-image {
     max-width: 100%;
+    box-shadow: 0px 0px 20px black;
   }
 }
 
 @media only screen and (min-width: 1025px) {
   .flex-image {
     max-width: 50%;
+    box-shadow: 0px 0px 20px black;
   }
 }

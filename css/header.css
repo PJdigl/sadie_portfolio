@@ -1,5 +1,4 @@
 .header-text {
-  font-size: 4em;
   width: 100%;
   text-align: center;
   mix-blend-mode: difference;
@@ -19,6 +18,18 @@ header {
 .mobile-disclamer {
   color: rgb(177, 18, 0);
   background-color: rgb(30, 20, 38);
+  box-shadow: 0px 0px 20px black;
+}
+
+@media only screen and (min-width: 1025px) {
+  .header-text {
+    font-size: 4em;
+  }
+}
+@media only screen and (max-width: 1025px) {
+  .header-text {
+    font-size: 4em;
+  }
 }
 
 @media only screen and (min-width: 1025px) {
