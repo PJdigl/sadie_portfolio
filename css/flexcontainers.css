@@ -25,11 +25,22 @@
 }
 
 #flex-select {
-  white-space: nowrap;
   padding: 0.1rem;
   background-color: rgb(29, 0, 34);
 }
 
 .flex-image {
   align-self: center;
+}
+
+@media only screen and (min-width: 1025px) {
+  #flex-select {
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  #flex-select {
+    font-size: 0.75vw;
+  }
 }

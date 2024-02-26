@@ -30,3 +30,17 @@ a:link {
 .center-text {
   text-align: center;
 }
+
+@media screen and (max-width: 1025px) {
+  #embeds {
+    background-color: rgb(255, 243, 194);
+    height: 60vw;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  #embeds {
+    background-color: rgb(255, 243, 194);
+    height: 20vw;
+  }
+}
